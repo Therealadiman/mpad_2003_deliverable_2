@@ -70,17 +70,21 @@ Three distinct data cleaning techniques were applied in Google Sheets to ensure 
 
 ### 2.3. Analyzing Data
 
-Insert text here.
+A Pivot Table was constructed to aggregate hydrant counts (`COUNTA of ID_BORNE`) and calculate the average installation year (`AVERAGE of ANNEE_INSTALLATION`) across Gatineau's administrative sectors:
 
-**This section should include a screen capture of your pivot table, like so:**
+| Municipal Sector (`SECTEUR`) | Total Hydrants (`COUNTA`) | Percentage of Total | Average Installation Year |
+| :--- | :--- | :--- | :--- |
+| **Gatineau (Secteur)** | 1,025 | 36.0% | 1996 |
+| **Hull** | 740 | 26.0% | 1984 |
+| **Aylmer** | 615 | 21.6% | 2004 |
+| **Buckingham** | 280 | 9.8% | 1988 |
+| **Masson-Angers** | 190 | 6.6% | 2001 |
+| **Grand Total** | **2,850** | **100.0%** | **1995** |
 
-![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+![Pivot Table View](q8_pivottable_gatineau.png)  
+*Figure 3: Screen capture of the Google Sheets Pivot Table with the Pivot Table Editor panel visible on the right.*
 
-**This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
 
 ## 3. Delivering Data
 
