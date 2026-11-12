@@ -1,7 +1,7 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
-**Presented to Jean-Sébastien Marier**<br>
+Date: November 12, 2026  
+Course: MPAD 2003A – Introductory Data Storytelling  
+Student: Adiman Djou Oulai  
+Instructor: Prof. Jean-Sébastien Marier 
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
 
