@@ -11,23 +11,10 @@ This report presents an Exploratory Data Analysis (EDA) of municipal fire hydran
 
 ## 1. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+### Context & Dataset Background
+Fire hydrants form an essential backbone of municipal fire protection. In Quebec, municipal fire safety is governed by the *Loi sur la sécurité incendie* (Fire Safety Act, R.S.Q. c. S-3.4), which requires local municipalities to create and maintain a Risk Coverage Plan (*Schéma de couverture de risques en sécurité incendie*). Under these legislative guidelines, the *Service de sécurité incendie de Gatineau* (SSIG) relies on a pressurized water distribution network to ensure adequate water flow during structural fire emergencies.
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
-
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
-
-**Here are examples of functions and lines of code put in grey boxes:**
-
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
-
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
+The dataset analyzed for this project, **"Bornes-fontaines de la Ville de Gatineau,"** is publicly accessible via the Données Québec Open Data Portal and the Open Government Canada Portal. Maintained by Gatineau's *Service des infrastructures et des travaux publics*, the dataset is compiled during annual pressure checks, routine field maintenance, and new residential developments using GPS mapping tools.
 
 ## 2. Understanding Data
 
