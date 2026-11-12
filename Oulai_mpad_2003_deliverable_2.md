@@ -124,3 +124,6 @@ To develop this quantitative analysis into a full investigative story for ArcGIS
 * Statistics Canada. (2021). *Data accuracy and validation: Methods to ensure the quality of data* (Catalogue No. 89-20-0006). Government of Canada. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008 
 
 * Ville de Gatineau. (2024). *Bornes-fontaines de la Ville de Gatineau* [Data set]. Données Québec / Open Government Canada.https://open.canada.ca/data/en/dataset/eb04d8ab-0cff-4ae7-b63b-4ed6c6133be0 (Données Québec: https://www.donneesquebec.ca/recherche/dataset)
+
+### Artificial Intelligence (AI) Disclosure
+In compliance with course academic integrity guidelines, artificial intelligence Ai was used as a structural coach and proofreading assistant for this report. Specifically, Ai assisted in checking errors, organizing VIMO classifications, and reviewing APA citation structures. All data cleaning, calculations in Google Sheets, text, research and editorial interpretations were independently conducted and verified by the me. (adiman oulai)
