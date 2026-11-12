@@ -70,6 +70,8 @@ Three distinct data cleaning techniques were applied in Google Sheets to ensure 
 
 ### 2.3. Analyzing Data
 
+#### Pivot Table Analysis
+
 A Pivot Table was constructed to aggregate hydrant counts (`COUNTA of ID_BORNE`) and calculate the average installation year (`AVERAGE of ANNEE_INSTALLATION`) across Gatineau's administrative sectors:
 
 | Municipal Sector (`SECTEUR`) | Total Hydrants (`COUNTA`) | Percentage of Total | Average Installation Year |
@@ -84,7 +86,16 @@ A Pivot Table was constructed to aggregate hydrant counts (`COUNTA of ID_BORNE`)
 ![Pivot Table View](q8_pivottable_gatineau.png)  
 *Figure 3: Screen capture of the Google Sheets Pivot Table with the Pivot Table Editor panel visible on the right.*
 
+#### Exploratory Chart
+An exploratory column chart was generated from the Pivot Table data, highlighting the contrast in average infrastructure age across municipal sectors.
 
+![Exploratory Chart](q10_chart_gatineau.png)  
+*Figure 4: Exploratory column chart comparing average hydrant installation years across Gatineau sectors.*
+
+#### Key Findings & Insights
+1. **Age Disparity**: Hull possesses the oldest fire hydrant infrastructure in the city, with an average installation year of **1984**, compared to Aylmer's average installation year of **2004**.
+2. **Infrastructure Density**: Hull and central Gatineau account for **62% of all hydrants**, reflecting high urban density and multi-family residential zoning.
+3. **Winter Risk Implications**: Older hydrants in dense urban sectors like Hull are subjected to higher freeze-thaw degradation cycles and post-snowstorm burial risks along narrow street corridors.
 
 ## 3. Delivering Data
 
