@@ -16,7 +16,7 @@ Fire hydrants form an essential backbone of municipal fire protection. In Quebec
 
 The dataset analyzed for this project, **"Bornes-fontaines de la Ville de Gatineau,"** is publicly accessible via the Données Québec Open Data Portal and the Open Government Canada Portal. Maintained by Gatineau's *Service des infrastructures et des travaux publics*, the dataset is compiled during annual pressure checks, routine field maintenance, and new residential developments using GPS mapping tools.
 
-\### Import Process &amp; Spreadsheet Access To analyze the dataset in Google Sheets, the original CSV file was imported following these steps: 1\. Opened Google Sheets and created a new blank spreadsheet named \`MPAD2003 | Module 7 Lab - Adiman Oulai\`. 2\. Selected \*\*File &gt; Import &gt; Upload\*\* and selected \`bornes\_fontaines\_gatineau.csv\`. 3\. Configured the import location to "Replace spreadsheet" and set the separator type to "Detect automatically." 4\. Clicked \*\*Import data\*\* and verified that the column headers loaded into Row 1 with Canadian English locale settings (\*\*File &gt; Settings &gt; Locale &gt; Canada\*\*). ![Google Sheets Import View](q1\_setup\_gatineau.png) \*Figure 1: Screen capture of the Gatineau fire hydrants dataset in Google Sheets immediately following CSV importation.\* ### Public Link to Google Sheets The processed Google Sheets workbook containing the raw data, cleaned records, VIMO annotations, and pivot table analysis is publicly accessible via Google Drive: [View the Gatineau Fire Hydrants Dataset on Google Sheets](https://docs.google.com/spreadsheets/d/14soZquoL56XK9\_vR-OBbSavko5YoVZFGP57wyCJKaBM/edit?usp=sharing)
+\### Import Process &amp; Spreadsheet Access To analyze the dataset in Google Sheets, the original CSV file was imported following these steps: 1\. Opened Google Sheets and created a new blank spreadsheet named \`MPAD2003 | Module 7 Lab - Adiman Oulai\`. 2\. Selected \*\*File &gt; Import &gt; Upload\*\* and selected \`bornes\_fontaines\_gatineau.csv\`. 3\. Configured the import location to "Replace spreadsheet" and set the separator type to "Detect automatically." 4\. Clicked \*\*Import data\*\* and verified that the column headers loaded into Row 1 with Canadian English locale settings (\*\*File &gt; Settings &gt; Locale &gt; Canada\*\*). ![Google Sheets Import View](q1_setup_gatineau.png) \*Figure 1: Screen capture of the Gatineau fire hydrants dataset in Google Sheets immediately following CSV importation.\* ### Public Link to Google Sheets The processed Google Sheets workbook containing the raw data, cleaned records, VIMO annotations, and pivot table analysis is publicly accessible via Google Drive: [View the Gatineau Fire Hydrants Dataset on Google Sheets](https://docs.google.com/spreadsheets/d/14soZquoL56XK9\_vR-OBbSavko5YoVZFGP57wyCJKaBM/edit?usp=sharing)
 
 ### General & Specific Observations
 The raw dataset contains **2,850 records and 8 columns**, representing fire hydrants distributed across Gatineau's five sectors: Hull, Aylmer, Gatineau, Masson-Angers, and Buckingham.
@@ -40,7 +40,25 @@ To evaluate dataset quality, accuracy, and reliability prior to analysis, a comp
 
 ### 2.2. Cleaning Data
 
-Insert text here.
+Three distinct data cleaning techniques were applied in Google Sheets to ensure data standardization and reproducibility:
+
+1. **Whitespace Removal (`TRIM`)**:  
+   To eliminate leading and trailing spaces in sector designations, a new column was created using the `TRIM` function:
+   ```excel
+   =TRIM(C2)
+   ```
+2. **Handling Missing Inspection Dates (`IF` & `ISBLANK`)**:  
+   To prevent division errors in pivot calculations for hydrants lacking recorded inspection dates, missing values were replaced with a standardized flag:
+   ```excel
+   =IF(ISBLANK(E2), "Pending Inspection", E2)
+   ```
+3. **Splitting Geographic Coordinates (`SPLIT`)**:  
+   The combined `GEOLOCATION` column containing latitude and longitude string pairs (e.g., `"45.4285, -75.7142"`) was separated into distinct numerical coordinate columns for spatial mapping:
+   ```excel
+   =SPLIT(G2, ",")
+   ```
+
+![Cleaned Dataset View](lab6_cleaned_gatineau.png) \*Figure 2: Screen capture of the cleaned dataset in Google Sheets showing standardized sector names and split coordinate columns.\*
 
 ### 2.3. Analyzing Data
 
