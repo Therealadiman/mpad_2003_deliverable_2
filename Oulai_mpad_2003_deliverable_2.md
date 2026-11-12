@@ -16,6 +16,17 @@ Fire hydrants form an essential backbone of municipal fire protection. In Quebec
 
 The dataset analyzed for this project, **"Bornes-fontaines de la Ville de Gatineau,"** is publicly accessible via the Données Québec Open Data Portal and the Open Government Canada Portal. Maintained by Gatineau's *Service des infrastructures et des travaux publics*, the dataset is compiled during annual pressure checks, routine field maintenance, and new residential developments using GPS mapping tools.
 
+\### Import Process &amp; Spreadsheet Access To analyze the dataset in Google Sheets, the original CSV file was imported following these steps: 1\. Opened Google Sheets and created a new blank spreadsheet named \`MPAD2003 | Module 7 Lab - Adiman Oulai\`. 2\. Selected \*\*File &gt; Import &gt; Upload\*\* and selected \`bornes\_fontaines\_gatineau.csv\`. 3\. Configured the import location to "Replace spreadsheet" and set the separator type to "Detect automatically." 4\. Clicked \*\*Import data\*\* and verified that the column headers loaded into Row 1 with Canadian English locale settings (\*\*File &gt; Settings &gt; Locale &gt; Canada\*\*). ![Google Sheets Import View](q1\_setup\_gatineau.png) \*Figure 1: Screen capture of the Gatineau fire hydrants dataset in Google Sheets immediately following CSV importation.\* ### Public Link to Google Sheets The processed Google Sheets workbook containing the raw data, cleaned records, VIMO annotations, and pivot table analysis is publicly accessible via Google Drive: [View the Gatineau Fire Hydrants Dataset on Google Sheets](https://docs.google.com/spreadsheets/d/14soZquoL56XK9\_vR-OBbSavko5YoVZFGP57wyCJKaBM/edit?usp=sharing)
+
+### General & Specific Observations
+The raw dataset contains **2,850 records and 8 columns**, representing fire hydrants distributed across Gatineau's five sectors: Hull, Aylmer, Gatineau, Masson-Angers, and Buckingham.
+* **`ID_BORNE`**: Nominal variable representing unique numeric identifiers assigned to individual hydrants.
+* **`SECTEUR`**: Nominal variable categorizing hydrants by municipal administrative sector (e.g., "Hull", "Aylmer", "Gatineau").
+* **`ANNEE_INSTALLATION`**: Discrete quantitative variable recording the installation year of each hydrant (ranging from historical infrastructure installed before 1975 to new installations in 2024).
+
+### Working Question & Hypothesis
+**Question:** Do older urban sectors in Gatineau exhibit higher proportions of aging, legacy fire hydrants compared to rapidly expanding suburban sectors, and does this spatial distribution create potential public safety risks during severe winter weather events?
+
 ## 2. Understanding Data
 
 ### 2.1. VIMO Analysis
