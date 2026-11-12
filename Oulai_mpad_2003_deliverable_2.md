@@ -113,8 +113,14 @@ To develop this quantitative analysis into a full investigative story for ArcGIS
 
 ## 4. References
 
-Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.
+* Bounegru, L., & Gray, J. (Eds.). (2021). *The data journalism handbook: Towards a critical data practice*. Amsterdam University Press. (Online Edition: https://datajournalism.com/read/handbook/two) 
 
-**Here's an example:**
+* Gray, J., Chambers, L., & Bounegru, L. (Eds.). (2012). *The data journalism handbook: How journalists can use data to improve the news*. O'Reilly Media. https://datajournalism.com/read/handbook/one
 
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+* Service de sécurité incendie de Gatineau. (2022). *Schéma de couverture de risques en sécurité incendie de la Ville de Gatineau 2022–2027*. [Ville de Gatineau. https://www.gatineau.ca ](https://www.gatineau.ca/docs/guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie/version_projet_octobre_2022.fr-CA.pdf) or https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie
+
+* Statistics Canada. (2021). *Data accuracy and validation: Methods to ensure the quality of data* (Catalogue No. 89-20-0006). Government of Canada. https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm 
+
+* Statistics Canada. (2021). *Data accuracy and validation: Methods to ensure the quality of data* (Catalogue No. 89-20-0006). Government of Canada. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008 
+
+* Ville de Gatineau. (2024). *Bornes-fontaines de la Ville de Gatineau* [Data set]. Données Québec / Open Government Canada.https://open.canada.ca/data/en/dataset/eb04d8ab-0cff-4ae7-b63b-4ed6c6133be0 (Données Québec: https://www.donneesquebec.ca/recherche/dataset)
