@@ -99,7 +99,11 @@ An exploratory column chart was generated from the Pivot Table data, highlightin
 
 ## 3. Delivering Data
 
-Insert text here.
+**Title:** *"Buried and Aging: Auditing Gatineau’s Fire Hydrant Network and Winter Safety Equity"*
+
+The exploratory data analysis reveals a fundamental infrastructure divide within Gatineau. While rapidly growing suburban sectors benefit from modern hydrant installations, dense urban core areas like Hull rely on aging infrastructure installed over 40 years ago. During severe winter snowstorms, heavy snowbank accumulation along narrow urban streets frequently covers older hydrants, forcing firefighters to spend critical minutes digging out water sources during structural fires.
+
+
 
 ## 4. References
 
