@@ -117,7 +117,7 @@ To develop this quantitative analysis into a full investigative story for ArcGIS
 
 * Gray, J., Chambers, L., & Bounegru, L. (Eds.). (2012). *The data journalism handbook: How journalists can use data to improve the news*. O'Reilly Media. https://datajournalism.com/read/handbook/one
 
-* Service de sécurité incendie de Gatineau. (2022). *Schéma de couverture de risques en sécurité incendie de la Ville de Gatineau 2022–2027*. [Ville de Gatineau. https://www.gatineau.ca ](https://www.gatineau.ca/docs/guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie/version_projet_octobre_2022.fr-CA.pdf) or https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie
+* Service de sécurité incendie de Gatineau. (2023). *Schéma de couverture de risques en sécurité incendie de la Ville de Gatineau 2023–2027*. [Ville de Gatineau. https://www.gatineau.ca ](https://www.gatineau.ca/docs/guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie/version_projet_octobre_2022.fr-CA.pdf) or https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/participation_citoyenne/consultations_publiques/consultations_publiques_2022/schema_couverture_risques_incendie
 
 * Statistics Canada. (2021). *Data accuracy and validation: Methods to ensure the quality of data* (Catalogue No. 89-20-0006). Government of Canada. https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm 
 
