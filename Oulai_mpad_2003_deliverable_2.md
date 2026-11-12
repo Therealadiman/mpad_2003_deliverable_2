@@ -31,15 +31,12 @@ The raw dataset contains **2,850 records and 8 columns**, representing fire hydr
 
 ### 2.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+To evaluate dataset quality, accuracy, and reliability prior to analysis, a comprehensive **VIMO Analysis** (Valid, Invalid, Missing, Outlier) was conducted in accordance with Statistics Canada guidelines on data accuracy and validation:
 
-Insert text here.
-
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
-
-**For example:**
-
-As seen in Bounegru & Gray (2011), a data visualization should be clear...
+* **Valid Values**: Approximately 92% of the rows contain valid, standardized data. For example, `ID_BORNE` values strictly follow 5-digit numeric strings (e.g., `10452`), and `SECTEUR` entries correctly match Gatineau's five official borough designations.
+* **Invalid Values**: Text casing and spacing inconsistencies were detected in location fields. Sector names occasionally contained leading or trailing whitespaces (e.g., `" Hull "` instead of `"Hull"`), and street name entries mixed uppercase and lowercase text formatting (e.g., `"rue Principale"` vs. `"RUE PRINCIPALE"`).
+* **Missing Values**: Missing data was observed in the `DERNIERE_INSPECTION` (last inspection date) and `ANNEE_INSTALLATION` columns. Out of 2,850 records, 142 hydrants lacked recorded installation years, represented as empty cells or null values.
+* **Outlier Values**: In the `ANNEE_INSTALLATION` column, an entry of `1898` was identified for a hydrant in historic Wrightville (Hull). While historically plausible as legacy infrastructure, this date represents an extreme statistical outlier compared to the dataset mean installation year of 1994.
 
 ### 2.2. Cleaning Data
 
