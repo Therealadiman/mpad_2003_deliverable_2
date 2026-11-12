@@ -103,7 +103,13 @@ An exploratory column chart was generated from the Pivot Table data, highlightin
 
 The exploratory data analysis reveals a fundamental infrastructure divide within Gatineau. While rapidly growing suburban sectors benefit from modern hydrant installations, dense urban core areas like Hull rely on aging infrastructure installed over 40 years ago. During severe winter snowstorms, heavy snowbank accumulation along narrow urban streets frequently covers older hydrants, forcing firefighters to spend critical minutes digging out water sources during structural fires.
 
-
+### Reporting Needs & Next Steps
+To develop this quantitative analysis into a full investigative story for ArcGIS StoryMaps, the following reporting steps will be executed:
+1. **FOIA / Access to Information Requests**: Submit official requests to the City of Gatineau for municipal winter clearing logs, 311 hydrant obstruction complaints, and SSIG pressure inspection failure reports.
+2. **Expert & Community Interviews**:
+   * **Municipal Officials**: Interview representatives from the *Service de sécurité incendie de Gatineau* (SSIG) regarding winter operational response protocols and maintenance schedules.
+   * **Urban Planners & Councillors**: Interview Ward Councillors for Hull and Wrightville regarding infrastructure renewal budgets.
+   * **Residents & Advocates**: Interview neighborhood association representatives in older sectors who experience post-storm snow removal delays.
 
 ## 4. References
 
